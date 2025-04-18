@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// Remarque: Vous devrez utiliser une API réelle comme lyrics.ovh ou une autre
 const API_URL = 'https://api.lyrics.ovh';
 
 export const searchLyrics = async (query) => {
