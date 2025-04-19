@@ -21,7 +21,7 @@ function SongDetails({ song }) {
       <div className="border-t pt-4">
         <h4 className="text-lg font-semibold text-gray-700 mb-3">Paroles :</h4>
 
-        <h6>{console.log(getLyricsFunction(song))}</h6>
+        <h6>{getLyricsFunction(song)}</h6>
         <pre className="whitespace-pre-wrap font-sans text-gray-800 bg-gray-50 p-4 rounded-lg overflow-x-auto"></pre>
       </div>
     </div>
